@@ -10,7 +10,7 @@ import javax.persistence.Table;
 @Entity    
 @Table(name = "books")
 public class Book {
-   
+//   vikram has changed this
    @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "book_id")
